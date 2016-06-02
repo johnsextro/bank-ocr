@@ -1,11 +1,13 @@
 # The Bank OCR Kata
 
-## Step 1
+## User Story 1
+
+### Step 1
 * Created `test-parser.js` to drive the creation of the capability to parse out each number to OCR
 * Implemented the code to perform the actual parsing in `parser.js`
 * Refactored to simplify the implementation and remove magic numbers
 
-## Step 2
+### Step 2
 * Created `test-ocr.js` to drive the creation of the OCR'ing of each digit
 * First test OCR'ed account number '000000000'
 * Implemented the OCR'ing only for zero in `ocr.js` Used a Javascript object created from a static JSON file to translate the keys to their appropriate values.
@@ -17,7 +19,7 @@
 * Added elements 3, 4, 5, 6, 7, 8, & 9 to the JSON
 * Refactored to simplify the implementation
 
-## Step 3
+### Step 3
 * Created `test-main.js` to drive the creation of the file handling and OCR orchestration
 * Created data.txt to represent a test data file to read
 * Wrote the first test to get back an appropriate number of elements from the file.
