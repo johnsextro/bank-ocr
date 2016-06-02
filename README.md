@@ -1,2 +1,2 @@
-# bank-ocr
-Javascript implementation of the Bank OCR Kata
+# My Approach
+## to the Bank OCR Kata
