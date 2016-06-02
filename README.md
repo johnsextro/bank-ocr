@@ -8,7 +8,7 @@
 ## Step 2
 * Created `test-ocr.js` to drive the creation of the OCR'ing of each digit
 * First test OCR'ed account number '000000000'
-* Implemented the OCR'ing only for zero in `ocr.js` Used a Javascript object created from a static JSON file.
+* Implemented the OCR'ing only for zero in `ocr.js` Used a Javascript object created from a static JSON file to translate the keys to their appropriate values.
 * Second test OCR'ed account number '111111111'
 * Added element for 1 to the JSON
 * Third test OCR'ed account number '222222222'
